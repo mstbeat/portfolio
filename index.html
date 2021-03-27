@@ -22,30 +22,24 @@
 <body>
   <div class="wrapper">
 
-    <!-- .gnav -->
     <nav class="gnav" class="fixed">
       <ul class="gnav-list">
         <li class="gnav-item"><a class="gnav-link" href="#works-section">WORKS</a></li>
         <li class="gnav-item"><a class="gnav-link" href="#feature-section">FEATURE</a></li>
         <li class="gnav-item"><a class="gnav-link" href="#about-section">ABOUT</a></li>
-        <!-- <li class="gnav-item"><a class="gnav-link" href="#skill-section">SKILL</a></li> -->
         <li class="gnav-item"><a class="gnav-link" href="#contact-section">CONTACT</a></li>
       </ul>
     </nav>
-    <!-- /.gnav -->
 
-    <!-- .header -->
     <header class="header">
       <h1 class="logo">
         <div class="logo-title">MASATO YASUDA</div>
         <div class="logo-subtitle">WEB/SYSTEM ENGINEER - PORTFOLIO</div>
       </h1>
     </header>
-    <!-- /.header -->
 
     <main class="content">
 
-      <!-- .works-section -->
       <section class="works-section section" id="works-section">
         <div class="inner">
           <div class="section-heading">
@@ -146,17 +140,26 @@
                 </a>
                 <figcaption class="works-body">
                   <div class="works-title">バンド神経衰弱</div>
-                  <div class="works-text">JavaScript + jQuery+ HTML</div>
+                  <div class="works-text">JavaScript + jQuery + HTML</div>
                   <div class="works-url"><a class="works-url-link" href="https://rock-band-memory-game.herokuapp.com/" target="_blank">rock-band-memory-game.herokuapp.com</a>
+                </figcaption>
+              </figure>
+              <figure class="works-item">
+                <a href="img/works/superman-game.png" data-size="960x530" class="works-image-wrapper works-link hover-action">
+                  <img class="works-image lazyload fadein" src="img/placeholder4x3.png" data-src="img/works/superman-game.png"
+                    alt="" />
+                </a>
+                <figcaption class="works-body">
+                  <div class="works-title">スーパーマンゲーム</div>
+                  <div class="works-text">JavaScript + jQuery + HTML</div>
+                  <div class="works-url"><a class="works-url-link" href="https://superman-game.herokuapp.com/" target="_blank">superman-game.herokuapp.com</a>
                 </figcaption>
               </figure>
             </div>
           </div>
         </div>
       </section>
-      <!-- /.works-section -->
 
-      <!-- .feature-section -->
       <section class="feature-section section" id="feature-section">
         <div class="inner">
           <div class="section-heading">
@@ -178,18 +181,18 @@
                   <span class="text-bold">サイト名：</span><br>got gigs?<br><a href="https://got-gigs.herokuapp.com/" target="_blank">https://got-gigs.herokuapp.com</a>
                 </p>
                 <p><span class="text-bold">概要：</span><br>
-                  ミュージシャンとライブ（gig）のマッチングサイト
+                  ミュージシャンとライブのマッチングサイト　※gigs=ライブ
                 </p>
                 <p><span class="text-bold">使用言語など：</span><br>
                   Ruby on Rails + Haml + SCSS(BEM) + jQuery + MySQL + AWS(S3)
                 </p>
                 <p><span class="text-bold">説明：</span><br>
-                  ・ライブ情報を投稿して、必要なミュージシャンを募集することができます。<br>
-                  ・参加可能なミュージシャンとして、ライブにエントリーすることができます。<br>
-                  ・エントリー後は、メッセージを通してライブに参加できるか調整できます。<br>
+                  ・ライブ情報を投稿して、サポートミュージシャンを募集することができます。<br>
+                  ・参加可能なミュージシャンとして、募集にエントリーすることができます。<br>
+                  ・エントリー後は、メッセージを通してライブ参加への調整ができます。<br>
                 </p>
                 <p><span class="text-bold">制作背景：</span><br>
-                  バンドメンバー募集のサービスは多く存在するが、ライブで必要なミュージシャンを募集するサービスがなかったため。
+                  バンドメンバー募集のサービスは多く存在するが、ライブ等で急遽必要になったサポートミュージシャンを募集するサービスがなかったため。
                 </p>
                 <p><span class="text-bold">テストアカウント：</span><br>
                   Eメール：test@test.com<br>
@@ -200,9 +203,7 @@
           </div>
         </div>
       </section>
-      <!-- /.feature-section -->
 
-      <!-- .about-section -->
       <section class="about-section section" id="about-section">
         <div class="inner">
           <div class="section-heading">
@@ -228,121 +229,23 @@
                 </p>
                 <p>
                   <span class="text-bold">開発実績：</span><br>
-                  Java・VBを用いたシステム開発、Ruby・PHPを用いたWEB開発<br>
-                  ① 商品情報管理システムの開発<br>
-                  ② スキルシート管理システムの開発<br>
-                  ③ チャットアプリケーションの開発<br>
-                  ④ 既存サービスのクローンサイトの開発（Mercari・Instagram）<br>
-                  ⑤ WEBマッチングアプリの開発<br>
-                  ⑥ ゲームアプリの開発<br>
-                  ⑦ 記事投稿サイトの開発<br>
-                  ⑧ 証券会社向けシステムの改修<br>
+                  Ruby・PHPを用いたWEB開発<br>
+                  ① チャットアプリケーションの開発<br>
+                  ② 既存サービスのクローンサイトの開発（Mercari・Instagram）<br>
+                  ③ WEBマッチングアプリの開発<br>
+                  ④ ゲームアプリの開発<br>
+                  ⑤ 記事投稿サイトの開発<br><br>
+                  Java・Visual Basicを用いたシステム開発<br>
+                  ① 商品情報管理システムの開発（実装〜単体テスト）<br>
+                  ② スキルシート管理システムの開発（詳細設計〜実装）<br>
+                  ③ 証券会社向けシステムの改修（基本設計〜実装〜テスト〜移行）<br>
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- /.about-section -->
 
-      <!-- .skill-section -->
-      <!-- <section class="skill-section section" id="skill-section">
-        <div class="inner">
-          <div class="section-heading">
-            <h2 class="heading-primary">SKILL</h2>
-          </div>
-          <div class="section-lead">
-            <p>
-              未経験ですが頑張ります！
-            </p>
-          </div>
-          <div class="section-body skill">
-            <div class="skill-list">
-              <div class="skill-item">
-                <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
-                </div>
-                <div class="skill-body">
-                  <h3 class="skill-title">HTML5/CSS3</h3>
-                  <div class="skill-rating rating">
-                    <div class="rate rate4"></div>
-                  </div>
-                  <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
-                </div>
-                <div class="skill-body">
-                  <h3 class="skill-title">JavaScript</h3>
-                  <div class="skill-rating rating">
-                    <div class="rate rate3"></div>
-                  </div>
-                  <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
-                </div>
-                <div class="skill-body">
-                  <h3 class="skill-title">WordPress</h3>
-                  <div class="skill-rating rating">
-                    <div class="rate rate4"></div>
-                  </div>
-                  <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
-                </div>
-                <div class="skill-body">
-                  <h3 class="skill-title">Photoshop</h3>
-                  <div class="skill-rating rating">
-                    <div class="rate rate4"></div>
-                  </div>
-                  <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
-                </div>
-                <div class="skill-body">
-                  <h3 class="skill-title">Illustrator</h3>
-                  <div class="skill-rating rating">
-                    <div class="rate rate3"></div>
-                  </div>
-                  <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-              </div>
-              <div class="skill-item">
-                <div class="skill-image-wrapper">
-                  <img class="skill-image" src="img/skill/icon_skill.png" alt="">
-                </div>
-                <div class="skill-body">
-                  <h3 class="skill-title">XD</h3>
-                  <div class="skill-rating rating">
-                    <div class="rate rate3"></div>
-                  </div>
-                  <p>
-                    テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- /.skill-section -->
-
-      <!-- .contact-section -->
       <section class="contact-section section" id="contact-section">
         <div class="inner">
           <div class="section-heading">
@@ -354,25 +257,13 @@
             </p>
           </div>
           <div class="section-body contact">
-            <!-- <ul class="contact-list">
-              <li class="contact-item">
-                <a class="contact-link" href="https://twitter.com/" target="_blank"><img class="contact-image"
-                    src="img/contact/icon_tw.png" alt=""></a>
-              </li>
-              <li class="contact-item">
-                <a class="contact-link" href="https://www.facebook.com/" target="_blank"><img class="contact-image"
-                    src="img/contact/icon_fb.png" alt=""></a>
-              </li>
-            </ul> -->
-            <div class="contact-text">mrbrightside82@ymail.com</div>
+          <div class="contact-text">mrbrightside82@ymail.com</div>
           </div>
         </div>
       </section>
-      <!-- /.contact-section -->
 
     </main>
 
-    <!-- .footer -->
     <footer class="footer">
       <div class="page-top" id="js-page-top">
         TOP
@@ -381,36 +272,25 @@
         <div class="copyright">Copyright&copy;MASATO YASUDA. All Rights Reserved.</div>
       </div>
     </footer>
-    <!-- /.footer -->
 
   </div>
 
-  <!-- 下記はPhotoswipeプラグイン用 -->
-  <!-- Root element of PhotoSwipe. Must have class pswp. -->
   <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-    <!-- Background of PhotoSwipe.
-       It's a separate element as animating opacity is faster than rgba(). -->
     <div class="pswp__bg"></div>
 
-    <!-- Slides wrapper with overflow:hidden. -->
     <div class="pswp__scroll-wrap">
 
-      <!-- Container that holds slides.
-          PhotoSwipe keeps only 3 of them in the DOM to save memory.
-          Don't modify these 3 pswp__item elements, data is added later on. -->
       <div class="pswp__container">
         <div class="pswp__item"></div>
         <div class="pswp__item"></div>
         <div class="pswp__item"></div>
       </div>
 
-      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
       <div class="pswp__ui pswp__ui--hidden">
 
         <div class="pswp__top-bar">
 
-          <!--  Controls are self-explanatory. Order can be changed. -->
 
           <div class="pswp__counter"></div>
 
@@ -422,9 +302,7 @@
 
           <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
-          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-          <!-- element will get class pswp__preloader--active when preloader is running -->
-          <div class="pswp__preloader">
+         <div class="pswp__preloader">
             <div class="pswp__preloader__icn">
               <div class="pswp__preloader__cut">
                 <div class="pswp__preloader__donut"></div>
